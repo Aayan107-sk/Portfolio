@@ -1,1 +1,0 @@
-mongodb+srv://indurters107:<db_password>@cluster1.0jmigho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1

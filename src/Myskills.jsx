@@ -32,13 +32,15 @@ const skills = [
   { name: "Unity", icon: <FaUnity size={30} /> },
   { name: "Git & GitHub", icon: <FaGithub size={30} /> },
 ];
+import CustomCursor from "./components/CustomCursor";
 
 const Myskills = () => {
   return (
     <section
       id="MySkills"
-      className="min-h-screen bg-gray-900 text-white flex flex-col justify-center items-center py-12 px-4"
+      className="min-h-screen cursor-none bg-gray-900 text-white flex flex-col justify-center items-center border-b-2 border-black py-12 px-4"
     >
+       <CustomCursor />
       {/* Heading */}
       <div className="mb-10">
         <h2 className="text-4xl md:text-5xl font-bold text-white">
